@@ -1,0 +1,60 @@
+/* Reset básico CSS */
+
+/* Reset de márgenes y rellenos */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Establecer el tamaño de fuente base para una fácil escalabilidad */
+html {
+    font-size: 16px; /* Ajusta según sea necesario */
+}
+
+/* Evitar que las imágenes se ajusten al ancho de la página automáticamente */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reset de los elementos de formulario para estilos consistentes en todos los navegadores */
+button, input, select, textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+/* Establecer reglas de herencia para campos de formulario */
+button, input, select, textarea {
+    font-family: inherit;
+}
+
+/* Estilos de hipervínculo predeterminados */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establecer el color de fondo para los elementos */
+body {
+    background-color: #ffffff; /* Color de fondo blanco */
+    color: #000000; /* Color de texto negro */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
